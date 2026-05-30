@@ -1,0 +1,19 @@
+{
+  "overview": "A California Lottery simulator that generates Quick Pick tickets and runs draws until all 6 numbers match, showing how many tries it took.",
+  "features": [
+    "Quick Pick button generates 6 unique random numbers from 1–49",
+    "Run Simulation draws until all 6 numbers match your ticket",
+    "Displays number of tries it took to find a match",
+    "Shows your ticket and winning numbers side by side with match highlights",
+    "New Quick Pick clears results and resets the simulation"
+  ],
+  "category": "tool",
+  "tags": [
+    "lottery",
+    "simulation",
+    "random",
+    "numbers",
+    "fun"
+  ],
+  "last_updated": "2026-05-30T06:45:27.243Z"
+}

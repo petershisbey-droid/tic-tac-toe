@@ -1,0 +1,11 @@
+type Ticket = vec nat;
+type SimulationResult = 
+ record {
+   ticketNumbers: Ticket;
+   tries: nat;
+   winningNumbers: Ticket;
+ };
+service : {
+  quickPick: () -> (Ticket);
+  simulate: (ticket: Ticket) -> (SimulationResult);
+}
